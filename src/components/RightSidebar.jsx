@@ -9,21 +9,21 @@ function RightSidebar() {
         <div className="right-sidebar-item">
           <p>Recommended for Anand</p>
           <img
-            src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/12/09/1009078-urfi-javed.jpg"
+            src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg"
             alt="recommended for Anand"
           />
         </div>
         <div className="right-sidebar-item">
           <p>Trending Topics</p>
           <img
-            src="https://www.koimoi.com/wp-content/new-galleries/2022/04/urfi-javed-gets-brutally-trolled-for-flaunting-her-hourglass-figure-in-a-pink-fluorescent-bikini-one-netizen-says-tujhe-dekh-kar-na-hamara-ramzan-01.jpg"
+            src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg"
             alt="recommended for Anand"
           />
         </div>
         <div className="right-sidebar-item">
           <p>Editor's choice</p>
           <img
-            src="https://blazetrends.com/wp-content/uploads/2022/03/Urfi-Javed-was-seen-climbing-out-of-the-tree-and.jpg"
+            src="https://www.drivespark.com/images/2021-03/volvo-c40-recharge-17.jpg"
             alt="recommended for Anand"
           />
         </div>
