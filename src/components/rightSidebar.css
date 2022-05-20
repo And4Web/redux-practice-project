@@ -1,0 +1,30 @@
+.right-sidebar{
+  width: 20%;
+  display: flex;
+  border-left: 1px solid grey;  
+  /* border-right: 1px solid grey;   */
+}
+.right-sidebar-items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+.right-sidebar-item p{
+  text-align: start;
+  margin-bottom: .2rem;
+
+}
+.right-sidebar-item img{
+  height: 6.5rem;
+  width: 14rem;
+}
+.see-more-button{
+  width: 100%;
+  height: auto;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: .2rem;
+  margin-top: .2rem;
+}
