@@ -1,16 +1,17 @@
 import React from "react";
-import HomeIcon from "@mui/icons-material/Home";
+import "./home.css";
+
 import Header from "../components/Header";
+import LeftSidebar from "../components/LeftSidebar";
 
 function Home() {
   return (
     <>
       <div className="home">
         <Header />
-        <h1>
-          <HomeIcon />
-          Home
-        </h1>
+        <div className="home-body">
+          <LeftSidebar />
+        </div>
       </div>
     </>
   );

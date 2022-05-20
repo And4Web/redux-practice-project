@@ -1,0 +1,21 @@
+.left-sidebar{
+  width: 20%;
+  margin: 0 ;
+  border-right: 1px solid grey;
+  cursor: pointer;
+}
+
+.left-sidebar-menu{
+  display: flex;
+  align-items: center;  
+  margin: 0 2.5rem;
+  /* background-color: blueviolet; */
+  font-size: .9rem;
+  border-bottom: 1px solid grey;
+}
+.left-sidebar-menu:hover{
+  background-color: white;
+}
+.left-sidebar-menu p{
+  margin-left: 1rem;
+}

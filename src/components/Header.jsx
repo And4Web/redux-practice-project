@@ -32,14 +32,14 @@ function Header() {
             <div className="user-profile">
               <img
                 src="https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg"
-                alt="user-display-image"
+                alt="user"
               />
               <p>Anand</p>
+              <ArrowDropDownIcon />
             </div>
           ) : (
             <button type="button">Sign in</button>
           )}
-          <ArrowDropDownIcon />
         </div>
       </nav>
     </div>

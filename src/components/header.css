@@ -3,9 +3,9 @@
 }
 .navbar{
   display: flex;
-  align-items: center;
-  /* justify-content: space-evenly; */
-  background-color: brown;
+  flex-wrap: wrap;
+  align-items: center;  
+  background-color: rgb(254, 180, 180);
   padding: .5rem 5%;
   position: relative;
 }
@@ -23,14 +23,15 @@
   cursor: pointer;
 }
 .menu-item{
-  color: white;
+  color: rgb(97, 94, 94);
   text-decoration: none;
   margin: 0 .5rem;
-  padding-bottom: 1.1rem;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
 }
 .menu-item:hover{
  /* text-decoration: underline; */
- border-bottom: .3rem solid white;
+ border-bottom: .3rem solid rgb(97, 94, 94);
  
 }
 
@@ -42,6 +43,16 @@
   align-items: center;
   justify-content: center;
   
+}
+.navbar-right button{
+ height: auto;
+ font-size: 1.3rem;
+ color: white;
+ background-color: rgb(250, 81, 81);
+ border: none;
+ border-radius: .5rem;
+ padding: .7rem;
+ cursor: pointer;
 }
 .navbar-right .user-profile{
   display: flex;
