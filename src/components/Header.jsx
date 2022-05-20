@@ -5,25 +5,36 @@ import Search from "../components/Search";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 function Header() {
-  const [user, setUser] = useState(false);
+  const [user, setUser] = useState(true);
   return (
     <div className="header">
       <nav className="navbar">
         <div className="navbar-left">
-          <span className="site-logo">Sample</span>
+          <span className="site-logo">SampleSite</span>
           <div className="menu-items">
-            <Link to="">Home</Link>
-            <Link to="">About</Link>
-            <Link to="">Services</Link>
-            <Link to="">Contact</Link>
+            <Link to="" className="menu-item">
+              Home
+            </Link>
+            <Link to="" className="menu-item">
+              About
+            </Link>
+            <Link to="" className="menu-item">
+              Services
+            </Link>
+            <Link to="" className="menu-item">
+              Contact
+            </Link>
           </div>
         </div>
-        <Search placeholder="Search products" />
+        <Search placeholder="Search products" className="search-bar" />
         <div className="navbar-right">
           {user ? (
             <div className="user-profile">
-              <img src="" alt="user-display-image" />
-              <span>Anand</span>
+              <img
+                src="https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg"
+                alt="user-display-image"
+              />
+              <p>Anand</p>
             </div>
           ) : (
             <button type="button">Sign in</button>

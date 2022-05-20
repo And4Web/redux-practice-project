@@ -1,0 +1,60 @@
+.header{
+ margin: 0;padding: 0;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  background-color: brown;
+  padding: .5rem 5%;
+  position: relative;
+}
+.navbar-left{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 12%;
+}
+.site-logo{
+  margin-left: 0;
+  margin-right: 1.5rem;
+  font-size: 2.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.menu-item{
+  color: white;
+  text-decoration: none;
+  margin: 0 .5rem;
+  padding-bottom: 1.1rem;
+}
+.menu-item:hover{
+ /* text-decoration: underline; */
+ border-bottom: .3rem solid white;
+ 
+}
+
+.navbar-right{
+  position: absolute;
+  top: .5rem;
+  right: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.navbar-right .user-profile{
+  display: flex;
+  align-items: center;
+  
+}
+
+.navbar-right img{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.navbar-right p{
+  margin: 0 .5rem;
+}
