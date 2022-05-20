@@ -1,6 +1,8 @@
 import React from "react";
 import "./body.css";
 
+import FormComponent from "./FormComponent";
+
 function Body() {
   return (
     <div className="body">
@@ -12,6 +14,7 @@ function Body() {
         </p>
         <button>Delete Account</button>
       </div>
+      <FormComponent />
     </div>
   );
 }
