@@ -1,7 +1,7 @@
 import React from "react";
 import "./body.css";
 
-import FormComponent from "./FormComponent";
+import FormComponent from "../formComponent/FormComponent";
 
 function Body() {
   return (

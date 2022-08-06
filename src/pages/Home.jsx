@@ -1,10 +1,10 @@
 import React from "react";
 import "./home.css";
 
-import Header from "../components/Header";
-import LeftSidebar from "../components/LeftSidebar";
-import RightSidebar from "../components/RightSidebar";
-import Body from "../components/Body";
+import Header from "../components/header/Header";
+import LeftSidebar from "../components/leftSidebar/LeftSidebar";
+import RightSidebar from "../components/RightSidebar/RightSidebar";
+import Body from "../components/body/Body";
 
 function Home() {
   return (

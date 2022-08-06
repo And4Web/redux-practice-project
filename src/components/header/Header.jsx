@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
-import Search from "../components/Search";
+import Search from "../search/Search";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 function Header() {
